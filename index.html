@@ -10,7 +10,7 @@
 	</head>
 	<body>
 		<?php
-		    $data = file_get_contents("http://whatever.com/sheep.jpg");
+		    $get_data=file_get_contents("http://whatever.com/sheep.jpg");
 			$covid19_th=json_decode($get_data);
 
 			$Confirmed=$covid19_th->Confirmed;
