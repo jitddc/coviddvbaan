@@ -6,25 +6,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-		<title>รายงานสถานการณ์ โควิด-19, devbanban.com</title>
+		<title>รายงานสถานการณ์ โควิด-19</title>
 	</head>
 	<body>
-		<?php
-		    $get_data=file_get_contents("http://whatever.com/sheep.jpg");
-			$covid19_th=json_decode($get_data);
-
-			$Confirmed=$covid19_th->Confirmed;
-			$Recovered=$covid19_th->Recovered;
-			$Hospitalized=$covid19_th->Hospitalized;
-			$NewConfirmed=$covid19_th->NewConfirmed;
-			$NewRecovered =$covid19_th->NewRecovered;
-			$NewHospitalized =$covid19_th->NewHospitalized;
-			$new_death =$covid19_th->new_death;
-			$update_date=$covid19_th->update_date;
-			$Deaths=$covid19_th->Deaths;
-
-
-		?>
 
 		<!-- ส่วนนี้ก็ตกแต่งง่ายๆด้วย Bootstrap4 -->
 		<div class="container">
